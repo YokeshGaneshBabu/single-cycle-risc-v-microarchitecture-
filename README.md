@@ -129,6 +129,8 @@ iverilog -o cpu_tb tb_riscv_cpu.v *.v
 ---
 
 ## 👤 Author
-Designed and implemented as part of an **ASIC design project**.  
+Yokesh Ganesh Babu
+
+This project is licensed under the [MIT License](LICENSE).
 
 
