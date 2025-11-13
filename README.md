@@ -1,4 +1,4 @@
-# single-cycle-risc-v-microarchitecture-
+# single-cycle-risc-v-microarchitecture
 This repository contains a fully–functional **single-cycle RISC-V processor** implemented in **Verilog HDL**, along with complete testbenches for every module.  
 The project demonstrates RTL design, modular architecture, CPU datapath construction, and verification — suitable for both **ASIC** and **FPGA** learning tracks.
 
