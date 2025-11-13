@@ -1,0 +1,28 @@
+module imm_gen (
+    input  wire [31:0] instr,     
+    input  wire [1:0]  imm_src,   
+    output reg  [31:0] imm_out
+);
+
+    always @(*) begin
+        case (imm_src)
+            2'b00: begin // I-type 
+                imm_out = {{20{instr[31]}}, instr[31:20]};
+            end
+
+            2'b01: begin // S-type 
+                imm_out = {{20{instr[31]}}, instr[31:25], instr[11:7]};
+            end
+
+            2'b10: begin // B-type 
+                imm_out = {{19{instr[31]}}, instr[31], instr[7],
+                            instr[30:25], instr[11:8], 1'b0};
+            end
+
+            default: begin // R-type
+                imm_out = 32'b0;
+            end
+        endcase
+    end
+endmodule
+
