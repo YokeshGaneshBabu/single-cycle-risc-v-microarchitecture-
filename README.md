@@ -3,6 +3,8 @@ This repository contains a fully–functional **single-cycle RISC-V processor** 
 The project demonstrates RTL design, modular architecture, CPU datapath construction, and verification — suitable for both **ASIC** and **FPGA** learning tracks.
 
 ---
+## Architecture 
+![Architecture](images/Architecture.png)
 
 ## 📁 Project Structure
 <pre>
