@@ -5,7 +5,7 @@ The project demonstrates RTL design, modular architecture, CPU datapath construc
 ---
 ## Architecture 
 ![Architecture](images/Architecture.png)
-
+---
 ## 📁 Project Structure
 <pre>
 modules/
