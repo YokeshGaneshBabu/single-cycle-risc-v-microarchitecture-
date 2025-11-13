@@ -5,7 +5,7 @@ The project demonstrates RTL design, modular architecture, CPU datapath construc
 ---
 
 ## 📁 Project Structure
-asic project//
+asic-project/
 ├── ALU.v
 ├── ALUControl.v
 ├── branch_unit.v
@@ -26,4 +26,4 @@ asic project//
 ├── tb_instr_mem.v
 ├── tb_pc_reg.v
 ├── tb_regfile.v
-├── tb_riscv_cpu.v
+└── tb_riscv_cpu.v
