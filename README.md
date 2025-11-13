@@ -6,6 +6,7 @@ The project demonstrates RTL design, modular architecture, CPU datapath construc
 
 ## 📁 Project Structure
 asic-project/
+│
 ├── ALU.v
 ├── ALUControl.v
 ├── branch_unit.v
