@@ -23,7 +23,7 @@ modules/
 testbenches/
 │
 ├── tb_ALU.v
-├── tb_ALUControl.v
+├── ALUControl_tb.v
 ├── tb_branch_unit.v
 ├── tb_control_unit.v
 ├── tb_data_mem.v
